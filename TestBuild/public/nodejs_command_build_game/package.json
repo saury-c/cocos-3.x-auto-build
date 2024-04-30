@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "ftp": "^0.3.10",
+    "protobufjs": "^7.2.6"
+  },
+  "creator": {
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "fix-device": "1.0.0",
+      "cocos-service": "3.0.7",
+      "im-plugin": "3.0.12"
+    }
+  },
+  "name": "build-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "wechat_build": "node wechat_build.js  --cocosEditPath=C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\CocosCreator.exe",
+    "wechat_build_for_test": "node wechat_build.js --test=testDelete --cocosEditPath=C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\CocosCreator.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

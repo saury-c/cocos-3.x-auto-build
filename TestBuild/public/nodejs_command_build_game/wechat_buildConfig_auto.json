@@ -1,0 +1,48 @@
+{
+  "name": "TestBuild",
+  "platform": "wechatgame",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "packAutoAtlas": true,
+  "startScene": "e1f90433-1e02-48ec-b90b-dcccbd1a2bbc",
+  "outputName": "wechatgame",
+  "scenes": [
+    {
+      "url": "db://assets/scene/scene.scene",
+      "uuid": "e1f90433-1e02-48ec-b90b-dcccbd1a2bbc",
+      "inBundle": false
+    }
+  ],
+  "wechatgame": [],
+  "packages": {
+    "cocos-service": {
+      "configID": "2ffd02",
+      "services": [],
+      "__version__": "3.0.7"
+    },
+    "wechatgame": {
+      "startSceneAssetBundle": true,
+      "orientation": "landscapeRight",
+      "appid": "Test666",
+      "buildOpenDataContextTemplate": false,
+      "separateEngine": false,
+      "highPerformanceMode": true,
+      "enabelWebGL2": "sameAsProjectSetting",
+      "wasm": "wasm",
+      "__version__": "1.0.2"
+    }
+  },
+  "__version__": "1.3.4",
+  "server": "https://xxx.com/static/remotePackages/0.0.1"
+}
